@@ -15,10 +15,10 @@
     <p><c:out value="${key + 1}"></c:out></p>
     <p>Light is:</p>
     <c:if test="${status == false}">
-        <p></p><c:out value="off"></c:out></p>
+        <p></p><c:out value="OFF"></c:out></p>
     </c:if>
     <c:if test="${status == true}">
-        <p><c:out value="on"></c:out></p>
+        <p><c:out value="ON"></c:out></p>
     </c:if>
     <p><a href="${changeUrl}">On/off</a></p>
 

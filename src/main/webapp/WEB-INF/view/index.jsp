@@ -20,7 +20,7 @@
                 <td><c:out value="${room.key + 1}"></c:out></td>
                 <c:if test="${room.value == false}">
                     <td><c:out value="OFF"></c:out></td>
-                </c:if>g
+                </c:if>
                 <c:if test="${room.value == true}">
                     <td><c:out value="ON"></c:out></td>
                 </c:if>
